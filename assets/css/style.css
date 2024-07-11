@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+body {
+    font-family: 'Tiny5', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg-body.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    color:  yellow;
+    padding: 1rem;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.header-text {
+    text-align: center;
+}
+.description {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.theme-logo{
+    width: 20%;
+    margin-bottom:  -80px;
+    margin-top: -50px;
+}
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center-image-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-image {
+    width: 700px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: blue;
+    font-size: 24px;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Feature page specific styles */
+.feature {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
