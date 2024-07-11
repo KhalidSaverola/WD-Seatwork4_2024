@@ -159,7 +159,7 @@ a{
 .feature-container-2{
     margin: 0;
     padding: 30vh;
-    background-image: url(../img/batmanbg-features-2.png);
+    background-image: url(../img/batmanbg-features-2.jpg);
     background-size: 100%, cover;
     background-repeat: no-repeat;
 }
@@ -177,7 +177,25 @@ a{
     display: center;
     text-align: center;
 }
-.feature-description-12
+.feature-description-2{
     position: relative;
     align-content: center;
 }
+.feature-container-3{
+    margin: 0;
+    padding: 30vh;
+    background-image: url(../img/batmanbg-features-3.jpg);
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+}
+.feature-title-1{
+    position: relative;
+    align-content: center;
+}
+.feature-title-3 h1{
+    color: red;
+}
+.feature-title-3 p{
+    color: white;
+}
+
