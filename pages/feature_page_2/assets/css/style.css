@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Adjusted to start content at the top */
+    height: 100vh; /* Set height to full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    background-image: url('../img/superman-bg.png'); /* Background image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Superman Feature Section */
+.superman-feature {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height to match body height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+}
+
+.superman-portrait-mask {
+    position: relative;
+    z-index: 2;
+}
+
+.superman-portrait {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9; /* Make the image slightly transparent */
+}
+
+.superman-text {
+    font-size: 6rem; /* Adjusted font size for readability */
+    font-weight: bold;
+    color: darkred; /* Text color */
+    position: absolute;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkcyan;
+}
+
+.button-nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.button-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    margin-top: 20px;
+    padding: 20px; /* Added padding to separate from edges */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+}
+
+.feature {
+    width: 300px; /* Adjust width based on your design */
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth image hover effect */
+}
+
+.feature .overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.feature .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for text overlay */
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust as needed */
+}
+
+.feature .description {
+    padding: 20px;
+    font-size: 1rem;
+}
+//////////''
