@@ -4,12 +4,12 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/KhalidSaverola/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/kh logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Feature Display</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=KhalidSaverola/WD-Seatwork4_2024)
 
 ---
 
@@ -35,7 +35,13 @@
       <a href="#overview">Overview</a>
       <ol>
         <li>
-          <a href="#key-components">Key Components</a>
+          <a href="#key-components">Key Components
+          1. Landing Page: Spider-Man
+Purpose: The landing page serves as the homepage of your website, introducing visitors to the superhero theme and providing an engaging entry point.
+2. Feature Page 1: Batman
+Purpose: This page provides detailed information about Batman, showcasing three main features that define the character.
+3. Feature Page 2: Superman
+Purpose: This page focuses on Superman, highlighting three key features that make him a unique and iconic superhero.</a>
         </li>
         <li>
           <a href="#technology">Technology</a>
