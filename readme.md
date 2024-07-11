@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+        My project is a superhero-themed website featuring three iconic superheroes: Spider-Man, Batman, and Superman. The website includes a visually engaging landing page dedicated to Spider-Man, highlighting his key characteristics. It also features two additional pages: one focused on Batman, showcasing his detective skills, gadgets, and combat prowess, and another on Superman, highlighting his superhuman strength, flight, and heat vision. The site is designed to be user-friendly and visually consistent, offering visitors an informative and immersive experience into the world of superheroes.
 </div>
 
 <br />
@@ -35,13 +35,7 @@
       <a href="#overview">Overview</a>
       <ol>
         <li>
-          <a href="#key-components">Key Components
-          1. Landing Page: Spider-Man
-Purpose: The landing page serves as the homepage of your website, introducing visitors to the superhero theme and providing an engaging entry point.
-2. Feature Page 1: Batman
-Purpose: This page provides detailed information about Batman, showcasing three main features that define the character.
-3. Feature Page 2: Superman
-Purpose: This page focuses on Superman, highlighting three key features that make him a unique and iconic superhero.</a>
+          <a href="#key-components">Key Components</a>
         </li>
         <li>
           <a href="#technology">Technology</a>
@@ -63,20 +57,17 @@ Purpose: This page focuses on Superman, highlighting three key features that mak
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is a superhero-themed website featuring Spider-Man, Batman, and Superman, designed to provide an engaging and informative experience for visitors. The site includes a landing page for Spider-Man with an overview of his origin, powers, and iconic status, and two feature pages detailing Batman's detective skills, gadgets, and combat prowess, as well as Superman's superhuman strength, flight, and heat vision. The purpose is to create an educational and entertaining platform for superhero enthusiasts. The website employs HTML5 for content structure, CSS3 for styling, and JavaScript for interactivity, ensuring a consistent visual theme and responsive design. High-quality images and graphics are crafted using tools like Adobe Photoshop and Illustrator, and the site is hosted online for accessibility.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+-  Landing Page: Spider-Man
+Purpose: The landing page serves as the homepage of your website, introducing visitors to the superhero theme and providing an engaging entry point.
+- Feature Page 1: Batman
+Purpose: This page provides detailed information about Batman, showcasing three main features that define the character.
+- Feature Page 2: Superman
+Purpose: This page focuses on Superman, highlighting three key features that make him a unique and iconic superhero.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -123,4 +114,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Images | Used it for logo backgrund and other needed for feature images | https://www.google.com/ |
+| Font   | Used it for my overall website main font                     | https://fonts.google.com/ |
+| Tutorial | Used it for any needed help for understanding certain codes | https://www.youtube.com/ |
+| Removed BG | Used it to remove background for images | https://www.remove.bg/ |
+| W3schools | Used it for references | https://www.w3schools.com/ |
